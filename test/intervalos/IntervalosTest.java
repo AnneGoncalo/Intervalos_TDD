@@ -14,4 +14,10 @@ public class IntervalosTest extends TestCase {
         assertEquals("Lista vazia", Intervalos.quebraIntervalos(lista));
     }
     
+    @Test
+    public void testListaDesordenada() {
+        int[] lista = {91, 90};
+        assertEquals("Lista desordenada", Intervalos.quebraIntervalos(lista));
+    }
+    
 }

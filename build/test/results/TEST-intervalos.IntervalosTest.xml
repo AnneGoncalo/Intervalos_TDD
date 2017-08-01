@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="LAPTOP-TB7BRVO5" name="intervalos.IntervalosTest" skipped="0" tests="1" time="0.079" timestamp="2017-08-01T20:10:19">
+<testsuite errors="0" failures="1" hostname="LAPTOP-TB7BRVO5" name="intervalos.IntervalosTest" skipped="0" tests="2" time="0.078" timestamp="2017-08-01T20:11:34">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="BR" />
@@ -62,7 +62,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner intervalos.IntervalosTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\test\results\TEST-intervalos.IntervalosTest.xml crashfile=C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\junitvmwatcher6521545028344704964.properties propsfile=C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\junit6221274019543247476.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner intervalos.IntervalosTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\test\results\TEST-intervalos.IntervalosTest.xml crashfile=C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\junitvmwatcher4000993735536136585.properties propsfile=C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\junit1483089888258902279.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -422,6 +422,11 @@
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
   </properties>
   <testcase classname="intervalos.IntervalosTest" name="testListaVazia" time="0.0" />
+  <testcase classname="intervalos.IntervalosTest" name="testListaDesordenada" time="0.016">
+    <failure message="expected:&lt;[Lista desordenada]&gt; but was:&lt;[[91]]&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;[Lista desordenada]&gt; but was:&lt;[[91]]&gt;
+	at intervalos.IntervalosTest.testListaDesordenada(IntervalosTest.java:20)
+</failure>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
