@@ -1,9 +1,10 @@
 # Intervalos_TDD
-Avaliação da disciplina de Testes de Softwares.
+Avaliação da disciplina de Testes de Softwares.  
 Problema do Intervalo seguindo a orientação de programação TDD.
 
-## Alunas
-Ana e Anne
+**Alunas**
+* Ana Gonçalo
+* Anne Gonçalo
 
 # Plano de Testes
 Caso de uso: quebraIntervalo
