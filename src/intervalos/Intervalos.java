@@ -20,7 +20,24 @@ public class Intervalos {
         if(!Arrays.equals(lista, lista_))
             return "Lista desordenada";
         
-        return "["+lista[0]+" - "+lista[lista.length-1]+"]";
+        int inicio = lista[0];
+        String result = "";
+
+        for (int i = 0; i < lista.length; i++) {
+            if (i == lista.length - 1 && lista[i - 1] != lista[i] - 1) {
+                result += "[" + lista[i] + "]";
+            } else if (i == lista.length - 1 && lista[i - 1] == lista[i] - 1) {
+                result += "[" + inicio + "-" + lista[i] + "]";
+            } else if ((i + 1 != lista.length) && lista[i + 1] != lista[i] + 1) {
+                if (lista[i] == inicio) {
+                    result += "[" + lista[i] + "], ";
+                } else {
+                    result += "[" + inicio + "-" + lista[i] + "], ";
+                }
+                inicio = lista[i + 1];
+            }
+        }
+        return result;
     }
     
 }
