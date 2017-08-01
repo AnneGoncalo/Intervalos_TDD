@@ -12,7 +12,9 @@ public class Intervalos {
     }
     
     public static String quebraIntervalos(int[] lista){
-        return "";
+        if(lista.length == 0)
+            return "Lista vazia";
+        return "["+lista[0]+"]";
     }
     
 }
