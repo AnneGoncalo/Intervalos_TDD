@@ -20,7 +20,7 @@ public class Intervalos {
         if(!Arrays.equals(lista, lista_))
             return "Lista desordenada";
         
-        return "["+lista[0]+"]";
+        return "["+lista[0]+" - "+lista[lista.length-1]+"]";
     }
     
 }
