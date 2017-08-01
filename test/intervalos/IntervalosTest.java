@@ -68,4 +68,9 @@ public class IntervalosTest extends TestCase {
         assertEquals(qtdQuebras, qtdQuebrasResultado);
     }
     
+    @Test
+    public void testClassesValidas(){
+        int[] lista = {100, 101, 102, 103, 104, 105, 110, 111, 113, 114, 115, 150};
+        assertEquals(Intervalos.quebraIntervalos(lista), "[100-105], [110-111], [113-115], [150]");
+    }
 }
