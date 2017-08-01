@@ -11,4 +11,8 @@ public class Intervalos {
         
     }
     
+    public static String quebraIntervalos(int[] lista){
+        return "";
+    }
+    
 }

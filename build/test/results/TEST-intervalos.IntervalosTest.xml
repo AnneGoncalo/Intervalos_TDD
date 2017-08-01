@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="LAPTOP-TB7BRVO5" name="intervalos.IntervalosTest" skipped="0" tests="1" time="0.063" timestamp="2017-08-01T18:54:09">
+<testsuite errors="0" failures="1" hostname="LAPTOP-TB7BRVO5" name="intervalos.IntervalosTest" skipped="0" tests="1" time="0.076" timestamp="2017-08-01T20:08:18">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="BR" />
@@ -62,7 +62,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner intervalos.IntervalosTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\test\results\TEST-intervalos.IntervalosTest.xml crashfile=C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\junitvmwatcher8880237835906645700.properties propsfile=C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\junit1090217680462657744.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner intervalos.IntervalosTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\test\results\TEST-intervalos.IntervalosTest.xml crashfile=C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\junitvmwatcher5889960155709867258.properties propsfile=C:\Users\Ana Gonçalo\Documents\NetBeansProjects\Intervalos\build\junit7302669674466418337.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -421,8 +421,9 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="junit.framework.TestSuite$1" name="warning" time="0.0">
-    <failure message="No tests found in intervalos.IntervalosTest" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: No tests found in intervalos.IntervalosTest
+  <testcase classname="intervalos.IntervalosTest" name="testListaVazia" time="0.009">
+    <failure message="expected:&lt;[Lista vazia]&gt; but was:&lt;[]&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;[Lista vazia]&gt; but was:&lt;[]&gt;
+	at intervalos.IntervalosTest.testListaVazia(IntervalosTest.java:14)
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
