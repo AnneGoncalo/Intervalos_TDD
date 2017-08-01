@@ -49,4 +49,23 @@ public class IntervalosTest extends TestCase {
 
     }
     
+    @Test
+    public void testQuantidadeDeSubGrupos(){
+        int[] lista = {100, 101, 102, 103, 104, 105, 110, 111, 113, 114, 115, 150};
+        int qtdQuebras=0;
+        for(int i=0; i<lista.length; i++){
+            if(i==lista.length-1){
+                qtdQuebras++;
+            }
+            else if(lista[i]+1 != lista[i+1]){
+                qtdQuebras++;
+            }   
+        }        
+        
+        String[] subs = Intervalos.quebraIntervalos(lista).split(",");
+        int qtdQuebrasResultado = subs.length;
+        
+        assertEquals(qtdQuebras, qtdQuebrasResultado);
+    }
+    
 }
